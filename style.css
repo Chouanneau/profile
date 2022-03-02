@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(201, 197, 197);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(110, 113, 116);
+  font-size: 20px;
+  font-weight: 100;
+}
+
+h1, h2, h3{
+  color:rgb(58, 54, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.photo-circle{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.container{
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  text-align: center;
+  background:rgb(201, 197, 197);
+  border: 1px, solid, rgb(99, 94, 94);
+  border-radius: 10px;
+  box-shadow: 2px,2px, 2px, rgb(99, 94, 94);
+}
+
+.btn-blue{
+  background: rgb(185, 183, 183);
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid lightgrey;
+}
+.card-white{
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
